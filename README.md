@@ -22,8 +22,8 @@
 
 | 工具 | macOS 目录 | Windows 目录 |
 | --- | --- | --- |
-| Codex | <code>~/.codex/skills/</code> | <code>%USERPROFILE%\.codex\skills\</code> |
-| Claude Code | <code>~/.claude/skills/</code> | <code>%USERPROFILE%\.claude\skills\</code> |
+| Codex | `~/.codex/skills` | `%USERPROFILE%\.codex\skills` |
+| Claude Code | `~/.claude/skills` | `%USERPROFILE%\.claude\skills` |
 
 3. 重新开启会话。Codex 请求中写“使用 $claude-mac-readiness”或“使用 $claude-windows-readiness”；Claude Code 输入 /claude-mac-readiness 或 /claude-windows-readiness。[Claude Code Skills 文档](https://code.claude.com/docs/en/skills)
 
