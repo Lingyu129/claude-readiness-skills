@@ -13,6 +13,7 @@ description: Audit and optionally configure Claude Desktop/Code, Chrome language
 - 若 Skill 在服务提供者自己的 Mac/Codex 中运行，而 Windows 是远程客户电脑，不要求客户安装 Skill。服务提供者 Mac 上的 shell、网络和时区结果不是客户 Windows 的证据；Windows 命令只能在客户授权的远程终端中运行，或由客户自己运行并提供结果。远控无法可靠操作时改为逐步指导。报告标明每项证据来自客户设备的 UI、终端或截图，修改需客户本人逐项确认。
 - 按需读取 [Windows 检查参考](references/windows-checks.md)，核实安装来源、版本、Claude Desktop 与 CLI 各自的登录状态、环境变量覆盖、路由、DNS、浏览器 WebRTC 和自启。不运行清理脚本，不输出密钥、完整 IP、网关 URL、账号或节点凭据。
 - 用户问到时区、区域或 Chrome 英语设置时读取 [语言与时区模块](references/locale-and-language.md)。用户引用“防封教程”时读 [经验核对](references/claim-review.md)，将官方规则、软件文档、第三方经验和本机实测分开。
+- 用户要求“照 X 帖完整走一遍”或类似的全流程服务时，必须按 [八章引导流程](references/guided-workflow.md) 逐章询问、检查和记录，跳过不适用步骤并说明原因。提到网页分数时读 [第三方分数检测](references/score-check.md)。不能只做网络检查就声称全流程完成。
 - 本机只读检查可直接进行。外部 IP/DNS/WebRTC 检测站会收到当前出口等信息，先说明具体站点及目的并取得确认。
 
 ## 修改前逐项确认
