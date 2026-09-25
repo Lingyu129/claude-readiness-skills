@@ -10,7 +10,8 @@
 | 邮件跟踪 | 检查像素与链接跟踪，了解邮箱产品的防护 | Proton 可拦已知跟踪器；Gmail 图片经 Google 代理加载。不能据此断言换 Proton 可减少 Claude 封号。[Proton](https://proton.me/support/email-tracker-protection) · [Google](https://support.google.com/mail/answer/145919) |
 | 本机清理 | 若用户要移除旧数据，先盘点、备份、列出可恢复项 | 原帖另有 MIT 授权的[清理 Skill 仓库](https://github.com/suyuan2022/suyuan-skill)。本产品不复制其实现，也不将删除缓存、轮换本机 ID 视为账号风险的已证实解决办法。 |
 | TUN、分流、断线 | 检查终端是否入隧道、国内直连与海外代理规则、节点与 VPN 隧道两类失效 | 规则最终兜底指向代理不等于 VPN 断开时的系统级保护；“包括所有网络”仍有系统服务例外。见 [Shadowrocket Wiki](https://github.com/LOWERTOP/Shadowrocket/wiki) 和 [Apple VPN 文档](https://developer.apple.com/documentation/networkextension/routing-your-vpn-network-traffic)。 |
+| IPPure 等检测分数 | 经用户同意后，在实际浏览器记录分数、WebRTC/DNS/语言/时区等具体提示，修改后同站点复测 | [IPPure](https://ippure.com/claude) 和 [Net.Coffee](https://ip.net.coffee/claude/) 是第三方网站，其分数规则、规模与 Anthropic 内部判断无等同关系；网页对 Claude 遥测的推测不能当作官方事实。 |
 | Claude Code 与订阅 | 用[官方安装和认证文档](https://code.claude.com/docs/en/setup)核对 CLI 与计划，分清订阅与 API | 官方要求付费计划或 Console 等路径才能使用 Code；[订阅账号与第三方工具的官方说明](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)限制把订阅当 API 或代理给他人。 |
 | 付款、KYC、升级节奏 | 查当期官方价格、账单规则与合法付款方式 | “聊天几次再升级”“KYC 弹出就换号”“IP 与账单地址要伪装一致”“申请退款一定能过”都不是可验证的通用规则；不指导虚构地址、规避 KYC 或反复开户。 |
 
-销售此 Skill 时，描述为“Mac 上的 Claude 环境审查与安全配置流程”。不要使用“保号”“防封保证”“官方认证”等宣传语；不要把第三方个人经验呈现为官方要求。独立销售原帖的文字、截图或代码之前应另行确认相应授权；引用来源链接不等于取得转载许可。
+对外提供配置服务时，描述为“Mac 上的 Claude 环境审查与安全配置流程”。不要使用“保号”“防封保证”“官方认证”等宣传语；不要把第三方个人经验呈现为官方要求。重用原帖的文字、截图或代码之前应另行确认相应授权；引用来源链接不等于取得转载许可。

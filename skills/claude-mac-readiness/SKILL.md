@@ -19,6 +19,8 @@ description: Audit and optionally configure Claude Desktop/Code, Chrome language
 
 按当前客户端和代理软件读取 [Mac 检查参考](references/mac-checks.md) 的相关部分，不必每次做所有测试。若用户引用“防封”文章或要评估其中做法，另读 [帖子经验核对](references/article-claims.md)，区分可测网络事实与未经证实的账号风控推断。
 
+用户要求“照 X 帖完整走一遍”或类似的全流程服务时，必须按 [八章引导流程](references/guided-workflow.md) 逐章询问、检查和记录。已有账号或不适用步骤明确标为跳过；不能只做 IP、DNS 和安装检查就声称全流程完成。用户提到检测页分数时，读取 [第三方分数检测](references/score-check.md)；该检测需针对实际使用的浏览器取得访问同意。
+
 需要比较 GitHub/X 同类经验时，读 [补充资料核对](references/related-source-review.md)；只吸收能改变审查判断的步骤，不复制第三方代码或断言。
 
 用户明确要求调整时区、Mac 地区或 Chrome 英语设置时，读取 [语言与时区模块](references/locale-and-language.md)。分别记录原值、修改目标和回退方式；不要把这些设置变化当作账号地区合规或风控通过的证据。
